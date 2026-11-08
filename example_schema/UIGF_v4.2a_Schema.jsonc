@@ -26,8 +26,8 @@
         },
         "version": {
           "type": "string",
-          "pattern": "^v\\d+\\.\\d+$",
-          "description": "The UIGF version of the exported archive, formatted as 'v{major}.{minor}', e.g., v4.0"
+          "pattern": "^v\\d+\\.\\d+a?$",
+          "description": "The UIGF version of the exported archive, formatted as 'v{major}.{minor}' with an optional 'a' suffix, e.g., v4.2a"
         }
       },
       "required": [
